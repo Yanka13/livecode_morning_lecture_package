@@ -1,2 +1,4 @@
+from termcolor import colored
+
 def who_am_i():
-    print("Hello my name is Yannis :)")
+    print(colored("Hello my name is Yannis", "blue"))
